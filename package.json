@@ -1,31 +1,12 @@
 {
   "name": "mapjitsu",
   "version": "1.0.0",
-  "description": "AI-powered location intelligence platform with safety and reputation insights",
   "private": true,
-  "author": "MapJitsu Team",
-  "license": "MIT",
-  "homepage": "https://github.com/shimon1246/mapjitsu-2025",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shimon1246/mapjitsu-2025.git"
-  },
-  "keywords": [
-    "location-intelligence",
-    "safety-scores",
-    "ai-navigation",
-    "mapbox",
-    "nextjs",
-    "typescript"
-  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --fix",
-    "type-check": "tsc --noEmit",
-    "clean": "rm -rf .next out dist build",
-    "preview": "npm run build && npm run start"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.5",
@@ -41,33 +22,6 @@
     "mapbox-gl": "^3.5.1",
     "@types/mapbox-gl": "^3.1.0",
     "react-map-gl": "^7.1.7",
-    "clsx": "^2.1.1",
-"@tailwindcss/forms": "^0.5.7",
-    "class-variance-authority": "^0.7.0",
-    "lucide-react": "^0.408.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.5",
-    "@typescript-eslint/eslint-plugin": "^7.16.1",
-    "@typescript-eslint/parser": "^7.16.1",
-    "prettier": "^3.3.2",
-    "prettier-plugin-tailwindcss": "^0.6.5"
-  },
-  "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=8.0.0"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "clsx": "^2.1.1"
   }
 }
