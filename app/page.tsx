@@ -3,7 +3,6 @@
 import { useState, useCallback, useRef, useMemo } from 'react'
 import Map, { Marker, Popup, GeolocateControl, NavigationControl, ScaleControl } from 'react-map-gl'
 import { clsx } from 'clsx'
-import 'mapbox-gl/dist/mapbox-gl.css'
 
 // Type definitions
 interface LocationData {
